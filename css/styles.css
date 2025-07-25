@@ -1,0 +1,49 @@
+.no-marker {
+  list-style: none;
+  padding-left: 0; /* Прибрати відступ, якщо треба */
+}
+
+.categories-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.item-last {
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+border: 1px solid;
+width: 360px;
+height: 40px;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.gallery-item {
+  flex-basis: calc(33.333% - 16px);
+  box-sizing: border-box;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+}
